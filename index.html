@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBQ - 5 Juli</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #ff6b6b, #ffa500);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+
+        .bbq-icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            color: #d63031;
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+        }
+
+        .date {
+            background: #ff6b6b;
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 1.5rem 0;
+        }
+
+        .info-section {
+            margin: 2rem 0;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .info-section h2 {
+            color: #2d3436;
+            margin-bottom: 1rem;
+        }
+
+        .address {
+            background: #e17055;
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+
+        .spotify-section {
+            margin: 2rem 0;
+        }
+
+        .spotify-link {
+            display: inline-block;
+            background: #1db954;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            margin: 0.5rem;
+        }
+
+        .spotify-link:hover {
+            background: #1ed760;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(29, 185, 84, 0.4);
+        }
+
+        .spotify-icon {
+            margin-right: 0.5rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .date {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bbq-icon">🔥</div>
+        <h1>BBQ Feest!</h1>
+        
+        <div class="date">
+            📅 5 Juli 2025
+        </div>
+
+        <div class="info-section">
+            <h2>Evenement Informatie</h2>
+            <p>Kom gezellig langs voor onze jaarlijkse BBQ! Een dag vol lekker eten, goede muziek en gezelligheid.</p>
+        </div>
+
+        <div class="address">
+            📍 <strong>Adres:</strong><br>
+            Sleper 74<br>
+            3448 WK Woerden
+        </div>
+
+        <div class="spotify-section">
+            <h2>🎵 Muziek</h2>
+            <p>Check onze BBQ playlist op Spotify:</p>
+            <a href="https://open.spotify.com/playlist/3IaNQCGdkNN0PTU5n2Ljh9?si=01055bacd9bc4d5b&pt=d3a54ee0968b3466f1360802f637085c" class="spotify-link" target="_blank">
+                <span class="spotify-icon">🎵</span>
+                BBQ Playlist - Invite link
+            </a>
+        </div>
+
+        <div class="info-section">
+            <p><strong>Tijd:</strong> 15:00 - 23:00</p>
+            <p><strong>Wat meenemen:</strong> jezelf!</p>
+        </div>
+    </div>
+</body>
+</html>
